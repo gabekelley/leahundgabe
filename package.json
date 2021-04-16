@@ -4,10 +4,12 @@
   "version": "0.1.2",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
+    "advanced-css-reset": "^1.2.2",
     "gatsby": "^2.32.9",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.11.1",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
