@@ -40,7 +40,7 @@ const IndexPage = () => {
                     </div>
                     <div className="info-section">
                         <p className="fancy">
-                            Join us for our engagement party <span>August 20th</span> from <span>3–9pm</span> at the <a href="https://google.com" className="mono">Esperanza View</a> in <span>Keuka Park, New York</span>.
+                            Join us for our engagement party <span>August 20th</span> from <span>3–9pm</span> at the <a href="https://www.google.com/maps/place/The+Esperanza+View+Event+House+Weddings/@42.5975723,-77.1403951,17z/data=!3m1!4b1!4m5!3m4!1s0x89d0fcd20661b073:0xa26195a0228a9819!8m2!3d42.5975723!4d-77.1382064" className="mono">Esperanza View</a> in <span>Keuka Park, New York</span>.
                         </p>
                     </div>
                     <div className="info-section">
