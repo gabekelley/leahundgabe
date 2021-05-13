@@ -22,7 +22,9 @@ html {
 }
 
 body {
-  padding: 128px;
+  @media (min-width: $desktop) {
+    padding: 128px;
+  }
 }
 
 .mono {
@@ -34,35 +36,65 @@ a {
 }
 
 .container {
-  border: 2px solid $primary-accent;
-  border-radius: $border-radius;
-  max-width: 832px;
-  margin: 0 auto;
+  @media (min-width: $desktop) {
+    border: 2px solid $primary-accent;
+    border-radius: $border-radius;
+    max-width: 832px;
+    margin: 0 auto;
+  }
 }
 
 .header {
-  transform: translateX(-76px) translateY(-76px);
-  .header-image__container {
-    max-width: 60%;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .header-type__container {
-    max-width: 40%;
-    transform: translateX(32px) translateY(24px);
-    vertical-align: middle;
-    display: inline-block;
-    text-align: center;
+  text-align: center;
+  margin-bottom: 48px;
+  @media (min-width: $desktop) {
+    margin-bottom: 0;
+    transform: translateX(-76px) translateY(-76px);
+    .header-image__container {
+      max-width: 60%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .header-type__container {
+      max-width: 40%;
+      transform: translateX(32px) translateY(24px);
+      vertical-align: middle;
+      display: inline-block;
+      text-align: center;
+    }
   }
   img.header-image {
+    display: none;
     filter: none;
     border-radius: $border-radius / 2;
     border: 12px solid $primary;
     width: 100%;
+    @media (min-width: $desktop) {
+      display: block;
+    }
   }
   img.header-type {
+    margin: 48px auto 24px auto;
     animation: rotation 20s infinite linear;
-    margin-bottom: 48px;
+  }
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-55%) translateX(-50%);
+  }
+}
+
+.spinning-container {
+  position: relative;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0;
+  @media (min-width: $desktop) {
+    padding: 0 64px;
   }
 }
 
@@ -86,6 +118,8 @@ p:not(.fancy) {
 }
 
 .rsvp-link {
+  display: inline-block;
+  margin: 0 auto;
   text-decoration: none;
   border: 2px solid $secondary-accent;
   padding: 12px 18px;
@@ -93,5 +127,12 @@ p:not(.fancy) {
   &:hover {
     background: $secondary-accent;
     color: $primary;
+  }
+}
+
+.mobile-hide {
+  display: none;
+  @media (min-width: $desktop) {
+    display: initial;;
   }
 }
