@@ -99,7 +99,10 @@ a {
 }
 
 .information {
-  padding: 0 64px 64px 64px;
+  padding: 0 24px 24px 24px;
+  @media (min-width: $desktop) {
+    padding: 0 64px 64px 64px;
+  }
 }
 
 
