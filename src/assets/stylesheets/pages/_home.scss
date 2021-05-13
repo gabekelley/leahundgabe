@@ -107,6 +107,7 @@ a {
 p.fancy {
   font-family: span, serif;
   font-size: 1.6em;
+  line-height: 1.65em;
   span {
     font-family: PT Mono, monospace;
     color: $secondary-accent;
@@ -115,6 +116,7 @@ p.fancy {
 
 p:not(.fancy) {
   max-width: 85%;
+  line-height: 1.6em;
 }
 
 .rsvp-link {

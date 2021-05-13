@@ -27,7 +27,7 @@ const IndexPage = () => {
                     <div className="header-type__container">
                         <div className="spinning-container">
                             <img className="header-type" src={header_type} width="320px" height="320px" alt="Gabe Kelley & Leah Schmidt" />
-                            <img className="heart" src={heart} width="75" height="75" alt="heart" />
+                            <img className="heart" src={heart} width="50" height="50" alt="heart" />
                         </div>
                         <a className="rsvp-link mono" href="https://docs.google.com/forms/d/e/1FAIpQLSfa9elUbvs4fmdkqOlQqyU5oMjqQrmUMqI-3Ft4EAa-FXUsMw/viewform?usp=sf_link" target="_blank" rel="noreferrer">RSVP Here ➜</a>
                     </div>
