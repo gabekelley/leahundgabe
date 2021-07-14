@@ -6,7 +6,7 @@ $tertiary: #2762d2;
 $primary-accent: #d0af53;
 $secondary-accent: #c14d0c;
 $border-radius: 70px;
-$desktop: 900px;
+$desktop: 1006px;
 
 @keyframes rotation {
   from {
@@ -132,6 +132,9 @@ p:not(.fancy) {
   &:hover {
     background: $secondary-accent;
     color: $primary;
+  }
+  & + .rsvp-link {
+    margin-left: 1rem;
   }
 }
 
