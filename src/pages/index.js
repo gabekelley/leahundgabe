@@ -30,7 +30,7 @@ const IndexPage = () => {
                             <img className="heart" src={heart} width="50" height="50" alt="heart" />
                         </div>
                         <a className="rsvp-link mono" href="https://docs.google.com/forms/d/e/1FAIpQLSfa9elUbvs4fmdkqOlQqyU5oMjqQrmUMqI-3Ft4EAa-FXUsMw/viewform?usp=sf_link" target="_blank" rel="noreferrer">RSVP Here ➜</a>
-                        <a className="rsvp-link registry mono" href="www.zola.com/registry/leah-gabe" target="_blank" rel="noreferrer">Registry ➜</a>
+                        <a className="rsvp-link registry mono" href="http://www.zola.com/registry/leah-gabe" target="_blank" rel="noreferrer">Registry ➜</a>
                     </div>
                 </div>
                 <div className="information">
