@@ -34,6 +34,16 @@ const IndexPage = () => {
                     </div>
                 </div>
                 <div className="information">
+                    <div className="info-section important-info">
+                        <p className="fancy">
+                            <b>tl;dr</b>
+                            <ul>
+                                <li>Please arrive on time at 3pm on August 20th, 2021.</li>
+                                <li>Dinner will be provided.</li>
+                                <li>If you have any questions please contact us at <a href="mailto:gabeundleah@gmail.com">gabeundleah@gmail.com</a></li>
+                            </ul>
+                        </p>
+                    </div>
                     <div className="info-section">
                         <p className="fancy">
                             We miss you. We love each other. We wish we could have done this sooner, but things got in the way.
